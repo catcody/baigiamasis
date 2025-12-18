@@ -1,0 +1,211 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    margin: 0;
+}
+
+/* - - - - - - - - - - - - - */
+
+.block{
+    height: 100vh;
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.block p{
+    color: white;
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    margin: 20px 40px;
+
+}
+
+/*  - - - - - - - SECTIONS - - - - - - - - -  */
+
+
+#sec1 p{
+    margin: 5px;
+}
+
+#sec1 span{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#sec3{
+    display: flex;
+    flex-direction: column;
+}
+
+#sec3 textarea{
+    max-width: 800px;
+    max-height: 700px;
+    min-width: 200px;
+    min-height: 100px;
+    background-color: hsl(0, 0%, 100%, 0.3);
+    color: #001a20;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* - - - fade button - - - - */
+.is-hidden {
+  display: none;
+}
+
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  opacity: 0;
+}
+
+.btn {
+  background: #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: #00C9FF;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+
+/* - - - - submit - - - - - */
+
+.btn:hover{
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 2px solid #92FE9D;
+    background-color: #92FE9D;
+    cursor: pointer;
+}
+
+/* - - background gradients - -  */
+
+.pirmas{
+    background: linear-gradient(45deg, red, blue); 
+}
+
+.antras{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.trecias{
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+.ketvirtas{
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+}
+
+.penktas{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.sestas{
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%); 
+}
+
+.septintas{
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%); 
+}
+
+.astuntas{
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%); 
+}
+
+.devintas{
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); 
+}
+
+
+/* - - - - - navigation - - - - - */
+
+#nav{
+    background-color: #171818;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 10vh;
+    left: 20vh;
+        a{
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 26px;
+        text-decoration: none;
+        text-align: center;
+        /**/
+        border: 2px solid white;
+        color: white;
+        border-radius: 20px;
+        padding: 15px;
+        margin: 5px;
+    }
+}
+
+
+/* - - - - navigation: HOVER - - - - -  */
+
+#select1:hover{
+    border: 2px solid #171818;
+    background: linear-gradient(45deg, red, blue);
+}
+
+#select2:hover{
+    border: 2px solid #171818;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+#select3:hover{
+    border: 2px solid #171818;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+#select4:hover{
+    border: 2px solid #171818;
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+}
+
+#select5:hover{
+    border: 2px solid #171818;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+#select6:hover{
+    border: 2px solid #171818;
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+
+#select7:hover{
+    border: 2px solid #171818;
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%); 
+}
+
+#select8:hover{
+    border: 2px solid #171818;
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+#select9:hover{
+    border: 2px solid #171818;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+

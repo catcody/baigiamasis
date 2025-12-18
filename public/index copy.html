@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If you feel - catcody is here</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Source+Sans+3:wght@200..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<!-- navigation -->
+    <div id="nav">
+        <a id="select1" class="section" href="#sec1">1</a>
+        <a id="select2" class="section" href="#sec2">2</a>
+        <a id="select3" class="section" href="#sec3">3</a>
+        <a id="select4" class="section" href="#sec4">4</a>
+        <a id="select5" class="section" href="#sec5">5</a>
+        <a id="select6" class="section" href="#sec6">6</a>
+        <a id="select7" class="section" href="#sec7">7</a>
+        <a id="select8" class="section" href="#sec8">8</a>
+        <a id="select9" class="section" href="#sec9">9</a>
+
+    </div>
+    
+<!-- sections -->
+    <div id="sec1" class="block pirmas">
+        <p>what ya <span id="fella">feel</span>?</p>
+    </div>
+
+    <div id="sec2" class="block antras">
+        <p>If you feel you hate everyone - EAT some food.</p>
+        <p>If you feel everyone hate you - get some SLEEP.</p>
+        <p>If you feel you hate yourself - take a SHOWER.</p>
+        <p>If you feel everyone hates everyone - GO OUTSIDE for a WALK.</p>
+    </div>
+
+    <div id="sec3" class="block trecias">
+        <p>If you feel overwhelmed by your doubts - <button onclick="fadeIn" class="js-btn btn">WRITE it down.</button></p>
+        
+        <div class="js-fade is-hidden">
+            <form action="action.php" method="POST">
+                <textarea id="text" name="text" rows="11" cols="55" maxlength="111">
+                A mind needs books
+                as a sword needs a whetstone
+                if it is to
+                keep
+                its edge.
+                </textarea>
+                <br>
+                <button id="submit" class="btn" type="submit">Send to database</button>
+            </form>
+        </div>
+        
+    </div>
+
+    <div id="sec4" class="block ketvirtas">
+        <p>If you feel lost and alone - CALL a FRIEND.</p>
+    </div>
+
+    <div id="sec5" class="block penktas">
+        <p>If you feel stuck in the past - PLAN for the FUTURE.</p>
+        <p>If you feel anxious about the future - focus on a PRESENT.</p>
+    </div>
+
+    <div id="sec6" class="block sestas">
+        <p>If you feel you aren't enough - list your ACHIEVEMENTS.</p>
+        <p>If you feel you can't control anything - organize something small.</p>
+    </div>
+
+    <div id="sec7" class="block septintas">
+        <p>If you feel you aren't loved - do something KIND to YOURSELF.</p>
+        <p>If you feel no one understands you - EXPRESS yourself CREATIVELY.</p>
+    </div>
+
+    <div id="sec8" class="block astuntas">
+        <p>If you feel restless - take a LONG WALK.</p>
+        <p>If you feel you are giving up - remember the times when you SUCCSEEDED.</p>
+    </div>
+
+    <div id="sec9" class="block devintas">
+        <p>If you feel invisible - help SOMEONE in need.</p>
+        <p>If you feel under pressure - DO SIMPLE task you ENJOY.</p>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
